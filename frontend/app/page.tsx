@@ -1,6 +1,7 @@
 'use client'
 import Layout from "@/components/Layout";
 import Mint from "@/components/Mint";
+import Transfer from "@/components/Transfer";
 
 import { useAccount } from "wagmi";
 
@@ -13,7 +14,7 @@ export default function Home() {
   return (
     <Layout>
       {isConnected ? (
-        <Mint />
+          <Transfer />
       ) : (
         <NotConnected />
       )}

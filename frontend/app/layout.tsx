@@ -16,7 +16,7 @@ import {
 
 import { ChakraProvider } from '@chakra-ui/react'
 
-const WALLET_CONNECT = process.env.NEXT_PUBLIC_WALLET_CONNECT || "";
+const WALLET_CONNECT = process.env.NEXT_PUBLIC_WALLET_CONNECT || "0x670d19A567ae472A19eA3623cC1f19B2a6465Cb2";
 
 const config = getDefaultConfig({
   appName: 'My RainbowKit App',
